@@ -59,7 +59,7 @@ public class CreateBusinessTripPageSteps {
     @И("^Проверяем заполнение полей, введенных с клавиатуры$")
     public void checkEnteredValues(DataTable fieldsNameAndValue) {
         fieldsNameAndValue.asMap(String.class, String.class).forEach((name, value)
-                -> pageManager.getCreateBusinessTripPage().CheckEnteredData ((String) name, (String) value));
+                -> pageManager.getCreateBusinessTripPage().CheckEnteredData((String) name, (String) value));
     }
 
     @И("^Проверяем выбранные чекбоксы$")

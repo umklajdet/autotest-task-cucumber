@@ -2,7 +2,7 @@
 /shelf/
 
 # Folders ignore
-../target/
+./target/
 .idea/
 .allure/
 

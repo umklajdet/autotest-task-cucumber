@@ -13,12 +13,12 @@ public class Hooks {
     private final PropManager propManager = PropManager.getPropManager();
 
     @Before
-    public void before(){
+    public void before() {
         driverManager.getDriver().get(propManager.getProperty("base.url"));
     }
 
     @After
-    public void after(){
+    public void after() {
         driverManager.quitDriver();
     }
 
