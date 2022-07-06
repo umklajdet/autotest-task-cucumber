@@ -1,0 +1,13 @@
+ru\ibs\steps\StartPageSteps.class
+ru\ibs\managers\DriverManager.class
+ru\ibs\steps\CreateBusinessTripPageSteps.class
+ru\ibs\pages\LoginPage.class
+ru\ibs\pages\BusinessTripsPage.class
+ru\ibs\pages\BasePage.class
+ru\ibs\steps\BusinessTripsPageSteps.class
+ru\ibs\pages\StartPage.class
+ru\ibs\steps\hooks\Hooks.class
+ru\ibs\pages\CreateBusinessTripPage.class
+ru\ibs\managers\PropManager.class
+ru\ibs\managers\PageManager.class
+ru\ibs\steps\LoginPageSteps.class
