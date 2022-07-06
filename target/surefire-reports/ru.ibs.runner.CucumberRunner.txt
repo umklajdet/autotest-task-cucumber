@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: ru.ibs.runner.CucumberRunner
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.075 s <<< FAILURE! - in ru.ibs.runner.CucumberRunner
-Создание командировки.Проверка ошибки при создании командировки  Time elapsed: 14.994 s  <<< FAILURE!
-java.lang.AssertionError: Поле Город выезда отсутствует на странице или действие для него не задано
-
